@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body, html{
+  height: 100%;
+}
+.wrapper{
+  min-height: 100%;
+  overflow: auto;
+}
+
+
+/* image slider */
+.slideshowContainer img{
+    height: 500px;
+    width: 100%;
+  
+  }
+  .slideshowContainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .imageSlides {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: -1;
+  }
+  
+  /* add 'visible' class via Javascript */
+  .visible {
+    opacity: 1;
+  }
+  
+  .slideshowArrow {
+    font-size: 7em;
+    color: rgba(14, 13, 13, 0.5);
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .slideshowArrow:hover {
+    opacity: 0.75;
+  }
+  
+  #leftArrow {
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #rightArrow {
+    position: absolute;
+    right: 4%;
+    top: 50%;
+    transform: translate(50%, -50%);
+  }
+  
+  .slideshowCircles {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .circle {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    transition: 1s ease-in-out;
+  }
+  
+  .dot {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid 2px rgba(255, 255, 255, 0.5);
+  }
+   
+/* partnership */
+section {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-color: #fff;
+  width: 1200px;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+marquee {
+  height: 300px;
+  width: 100%;
+}
+
+.partner img {
+  height: 200px;
+ 
+  
+}
+@media screen and (max-width: 1200px) {
+  section {
+      width: 100%;
+  }
+}
+
+
+/* introduction */
+.intro{
+ 
+  height: 900px;
+
+
+}
+#intro-img{ 
+    
+    float: left;
+    width:40%;
+    margin-top: 10px;
+    
+}
+
+.paragraph{
+    /* background-color: orange; */
+    padding: 15px;
+    float: right;
+    width: 55%;
+    
+   
+}
+
+@media screen and (max-width:800px) {
+  #intro-img, .paragraph {
+    width:100%;
+   
+  }
+  .intro{
+    height: 1250px;
+    
+  }
+  /* .test-container{
+    flex-direction: column;
+  }
+  .test-container :first-child{
+    margin-top:50px;
+  } */
+}
+
+
