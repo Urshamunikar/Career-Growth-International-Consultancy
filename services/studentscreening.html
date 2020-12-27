@@ -4,28 +4,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Objectives</title>
-    <link rel="stylesheet" href="../nav.css">
-    <link rel="stylesheet" href="../footer.css">
-    <link rel="stylesheet" href="../middle-content.css">
+    <title>Student Screening</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(function () {
-            $('#header').load('../nav.html');
-            $('#footer').load('../footer.html');
-            $('#sidenav1').load('../middle-content.html');
-
-
-        });
-    </script>
+   
+    <link rel="stylesheet" href="/style.css">
+    <script src="/js/sidenav.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
-        <div id="header">
+      <div id="navbar">
+        <div class="header1">
+            <div class="details " id="details1">
+                <ul>
+                    <li>
+                        <a href="mailto:Careergrowth.edu@gmail.com">&nbsp;
+                            <i class="fa fa-globe"> careergrowth.edu@gmail.com</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-phone">&nbsp;
+                                01-4104249</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-location-arrow">&nbsp;
+                                New Baneshwor</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="details">
 
+                <ul>
+                    <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.googleplus.com/"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://www.twitter.com/"><i class="fa fa-twitter-square"></i></a></li>
+                </ul>
+            </div>
         </div>
+        <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color">
+            <a class="navbar-brand" href="/index.html"><img height="70px" width="100px" src="/img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+                aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+                <ul class="navbar-nav ml-auto">
+                   
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            About</a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-info"
+                            aria-labelledby="navbarDropdownMenuLink-4">
+                            <a class="dropdown-item" href="/about/introduction.html">Introduction</a>
+                            <a class="dropdown-item" href="/about/objectives.html">Objectives</a>
+                            
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                           Test Preparation</a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-info"
+                            aria-labelledby="navbarDropdownMenuLink-4">
+                            <a class="dropdown-item" href="/test-preparation/ielts.html">IELTS</a>
+                           
+
+                        </div>
+                    </li>
+                  
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Study Abroad</a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-info"
+                            aria-labelledby="navbarDropdownMenuLink-4">
+                            <a class="dropdown-item" href="/study-abroad/australia.html">Australia</a>
+                            <a class="dropdown-item" href="/study-abroad/canada.html">Canada</a>
+                            <a class="dropdown-item" href="/study-abroad/uk.html">UK</a>
+                        
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Services</a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-info"
+                            aria-labelledby="navbarDropdownMenuLink-4">
+                            <a class="dropdown-item" href="/services/studentscreening.html">Student Screening</a>
+                            <a class="dropdown-item" href="/services/uaa.html">UAA</a>
+                            <a class="dropdown-item" href="/services/dg.html">DG</a>
+                        
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Gallery </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-info"
+                            aria-labelledby="navbarDropdownMenuLink-4">
+                            <a class="dropdown-item" href="/gallery/photos.html">Photos</a>
+                            <a class="dropdown-item" href="/gallery/videos.html">Videos</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Log In </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-info"
+                            aria-labelledby="navbarDropdownMenuLink-4">
+                            <a class="dropdown-item" href="/login/student.html">Student Login</a>
+                            <a class="dropdown-item" href="/login/member.html">Member Login</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link last" href="/contact/contact.html">
+                            CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--/.Navbar -->
         <div class="sidenav-container">
         <div class="main">
             <img src="/img/career1.jpg" alt="" width="400px" height="400px">
@@ -35,13 +156,133 @@
       
         </div>
         <div id="sidenav1">
-
+            <div id="sidenav1"  onclick="sidenav()">
+                <div class="sidenav">
+                  <button class="sidenav-topic">Latest News
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="sidenav-links">
+                    <a href="#">
+                      <i class="fa fa-calendar" aria-hidden="true"> &nbsp; 1st december, 2020</i>
+              
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-calendar" aria-hidden="true"> &nbsp; 1st January, 2020:Virtual </i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-calendar" aria-hidden="true"> &nbsp; 1st december, 2020:Virtual Fair</i>
+                    </a>
+              
+                  </div>
+                  <button class="sidenav-topic">Gallery
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div id="image-links" class="sidenav-links">
+                    <div>
+                      <a href="/gallery/photos.html"><img src="/img/career6.jpg" alt=""></a>
+                      <a href="/gallery/photos.html"><img src="/img/career7.jpg" alt=""></a>
+                      <a href="/gallery/photos.html"><img src="/img/career5.jpg" alt=""></a>
+                    </div>
+                  </div>
+                  <button class="sidenav-topic">Gallery
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="sidenav-links">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+              </div>
+              
+         
         </div>
     </div>
     </div>
-    <div id="footer">
+   <!-- footer -->
+
+   <footer class="page-footer font-small blue pt-4">
+
+
+    <div class="container-fluid text-center text-md-left">
+
+
+        <div class="row">
+
+
+            <div class="col-md-6 mt-md-0 mt-3">
+
+                <h5 class="text-uppercase">Footer Content</h5>
+                <p>Here you can use rows and columns to organize your footer content.</p>
+
+            </div>
+
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+
+            <div class="col-md-3 mb-md-0 mb-3">
+
+
+                <h5 class="text-uppercase">Quick Links</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about/introduction.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="/gallery/photos.html">Gallery</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/contact/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-3 mb-md-0 mb-3">
+
+
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 2</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 3</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 4</a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
 
     </div>
+
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="/index.html"> Career Growth Consultancy</a>
+        Powered By:  <a href="http://www.yarshatech.com/">Yarsha Tech Pvt. Ltd.</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+
+<!-- footer -->
    
 </body>
 
